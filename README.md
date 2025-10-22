@@ -42,20 +42,20 @@ ML Model (Scikit-Learn)
 ↓
 Database (SQLite + SQLAlchemy)
 
+# Technology Stack
 | Layer                | Technology / Tool           | Purpose & Rationale                                                                  |
-| -------------------- | --------------------------- | --------------------------------------------------------------------- |
-| **Frontend**         | React.js, Tailwind CSS      | Builds a responsive, interactive dashboard with modern UI/UX.                        
-|                      | Recharts / Chart.js         | Displays transaction trends, alerts, and analytics charts.                           
-| **Backend**          | Python, FastAPI             | Serves as a RESTful API for transaction processing, ML inference, and data management. 
+| -------------------- | --------------------------- | ------------------------------------------------------------------------------------ |
+| **Frontend**         | React.js, Tailwind CSS      | Builds a responsive, interactive dashboard with modern UI/UX.                        |
+|                      | Recharts / Chart.js         | Displays transaction trends, alerts, and analytics charts.                           |
+| **Backend**          | Python, FastAPI             | Serves as RESTful API for transaction processing, ML inference, and data management. |
+| **Machine Learning** | Scikit-Learn, Pandas, NumPy | Transaction classification, risk scoring, data preprocessing.                        |
+|                      | Joblib                      | Serializes and loads trained ML model (`aml_model.pkl`).                             |
+| **Database**         | SQLite, SQLAlchemy          | Stores transaction logs, KYC data, and flagged alerts; supports audit tracking.      |
+| **Deployment**       | Render / Vercel (optional)  | Optional hosting for backend and frontend applications.                              |
+| **Version Control**  | Git & GitHub                | Project versioning and public portfolio showcase.                                    |
+| **Environment**      | pip, virtualenv             | Dependency management and project environment isolation.                             |
+| **IDE**              | VS Code                     | Integrated development environment for frontend, backend, and ML coding.             |
 
-
-                       | Scikit-Learn, Pandas, NumPy | Transaction classification, risk scoring, data preprocessing.         | **Machine Learning**| 
-                       | Joblib                      | Serializes and loads trained ML model (`aml_model.pkl`).                             
-| **Database**         | SQLite, SQLAlchemy          | Stores transaction logs, KYC data, and flagged alerts;supports audit tracking.      
-| **Deployment**       | Render / Vercel (optional)  | Optional hosting for backend and frontend applications.                              
-| **Version Control**  | Git & GitHub                | Project versioning and public portfolio showcase.                                    
-| **Environment**      | pip, virtualenv             | Dependency management and project environment isolation.                             
-| **IDE**          |    VS Code                     | Integrated development environment for frontend, backend, and ML coding 
 
 ## 🧠 Machine Learning Model
 - **Features:** Transaction amount, frequency, sender-receiver network, KYC score, geographical location.  
