@@ -79,12 +79,14 @@ Key performance metrics demonstrated significant improvements over traditional r
 | **Operational Efficiency** | Moderate        | **High**         | Improved resource utilization |
 
 Real-World Applications
-
 This platform can be adapted for use in:
 
 Retail & Commercial Banking — Detecting unusual fund transfers, account layering, and round-tripping.
+
 Payment Gateways — Monitoring real-time digital transactions for AML compliance.
+
 Crypto Exchanges — Identifying wash trading and anomalous cross-wallet transactions.
+
 Investment Platforms — Detecting suspicious portfolio flows or insider-linked trading patterns.
 
 
