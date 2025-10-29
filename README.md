@@ -78,7 +78,9 @@ Key performance metrics demonstrated significant improvements over traditional r
 | **Alert Review Time**      | 15 mins/alert   | **4 mins/alert** | –73%                          |
 | **Operational Efficiency** | Moderate        | **High**         | Improved resource utilization |
 
+
 Real-World Applications
+
 This platform can be adapted for use in:
 
 Retail & Commercial Banking — Detecting unusual fund transfers, account layering, and round-tripping.
