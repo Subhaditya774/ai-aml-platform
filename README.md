@@ -67,7 +67,8 @@ Database (SQLite + SQLAlchemy)
 - Reduces false positives.  
 - Detects complex patterns in transaction behavior.  
 - Scalable to enterprise-grade deployments.
-  📊 Evaluation & Results
+  
+ Evaluation & Results
 
 The platform was tested using a synthetic transactional dataset simulating real-world financial activity.
 Key performance metrics demonstrated significant improvements over traditional rule-based AML systems:
