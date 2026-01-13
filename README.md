@@ -1,6 +1,6 @@
-# 💼 AI-Powered Anti–Money Laundering (AML) Platform  
+#  AI-Powered Anti–Money Laundering (AML) Platform  
 ### _An Intelligent FinTech System for Detecting and Preventing Financial Crimes Using Artificial Intelligence_
-## 🧭 Overview 
+##  Overview 
 The AI AML Platform integrates AI, full-stack development, and fintech expertise to provide a realistic and impactful demonstration of modern anti-money laundering workflows. By combining transactional data, KYC profiling, and interactive dashboards, it allows compliance teams to detect suspicious activity, prioritize alerts, and make data-driven decisions.
 
 This project highlights technical depth, problem-solving, and business understanding, making it an ideal showcase for investment banking, fintech, and AI-focused roles.
@@ -23,16 +23,16 @@ This platform introduces an **AI-first approach** that automatically learns from
 
 ---
 
-## 🧩 Key Features
-- 🔍 **AI-Powered Risk Scoring** — Detects suspicious patterns in transaction data using a trained machine learning model.  
-- 🧠 **Smart KYC Profiling** — Integrates customer-level risk factors into transaction analysis.  
-- 📊 **Interactive Dashboard** — Real-time web interface for compliance teams to review flagged transactions.  
-- ⚙️ **FastAPI Backend** — Secure, scalable, and high-performance API layer for analytics.  
-- 🗃️ **Transaction Database** — SQLite backend for structured storage and audit tracking.  
-- 📈 **Visual Analytics** — Charts and graphs showing trends and high-risk customer behavior.
+##  Key Features
+-  **AI-Powered Risk Scoring** — Detects suspicious patterns in transaction data using a trained machine learning model.  
+-  **Smart KYC Profiling** — Integrates customer-level risk factors into transaction analysis.  
+-  **Interactive Dashboard** — Real-time web interface for compliance teams to review flagged transactions.  
+-  **FastAPI Backend** — Secure, scalable, and high-performance API layer for analytics.  
+-  **Transaction Database** — SQLite backend for structured storage and audit tracking.  
+-  **Visual Analytics** — Charts and graphs showing trends and high-risk customer behavior.
 
 ---
-## 🧩 System Architecture
+##  System Architecture
 The AI AML Platform follows a **modular architecture**:
 Frontend (React + Tailwind CSS)
 ↓
@@ -57,7 +57,7 @@ Database (SQLite + SQLAlchemy)
 | **IDE**              | VS Code                     | Integrated development environment for frontend, backend, and ML coding.             |
 
 
-## 🧠 Machine Learning Model
+##  Machine Learning Model
 - **Features:** Transaction amount, frequency, sender-receiver network, KYC score, geographical location.  
 - **Algorithms:** Logistic Regression or Random Forest (configurable).  
 - **Output:** Risk probability (0–1); transactions above threshold flagged as suspicious.  
